@@ -1,0 +1,37 @@
+
+/* hele pagina */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+}
+
+
+/* hele pagina*/
+
+
+
+/* nav header*/
+
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/*nav header*/
