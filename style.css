@@ -64,7 +64,22 @@ a {
     padding: 30px;
 }
 
+/*nav header main*/
 
 
 
-/*nav header*/
+/*footer*/
+
+footer {
+    font-size: 14px;
+   display: flex;
+}
+
+footer a {
+    padding-left: 27px;
+}
+
+.footer-1 {
+    padding-left: 27px;
+}
+
