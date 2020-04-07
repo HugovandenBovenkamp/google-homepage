@@ -6,6 +6,11 @@
     padding: 0;
 }
 
+
+*:focus {
+    outline: none;
+}
+
 html {
     min-height: 100%;
 }
@@ -15,9 +20,7 @@ body {
 }
 
 
-
 /* hele pagina*/
-
 
 
 /* nav header main*/
@@ -29,7 +32,6 @@ body {
     margin-top: 89px;
     margin-bottom: 24px;
 }
-
 
 .searchbar {
     display: flex;
@@ -46,12 +48,12 @@ body {
 
 
 .input-bar {
-    display: flex;
+    border: 0;
     color: rgba(0, 0, 0, 0.87);
     font-size: 16px;
     height: 34px;
+    margin: auto 10px auto 10px;
     width: 487px;
-    border: 0;
     justify-content: center;
     align-items: center;
 }
@@ -61,6 +63,7 @@ body {
     display: flex;
     justify-content: center;
 }
+
 
 .buttons button {
     padding: 0 16px;
@@ -98,10 +101,58 @@ a {
     display: flex;
     justify-content: center;
     margin-bottom: 24px;
+    margin-top: 24px;
 }
+
 
 .aangeboden a {
     color: blue;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 18px 0px 5px 0px;
+}
+
+button {
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #5F6368;
+    cursor: pointer;
+    font-size: 14px;
+    height: 36px;
+    line-height: 27px;
+    padding: 0 16px;
+    min-width: 54px;
+    margin: 11px 4px;
+    outline: 0;
+}
+
+button:hover {
+    border: 1px solid #C6C6C6;
+}
+
+.google-search {
+    height: 14.58px;
+    width: 14.58px;
+}
+
+.google-microphone {
+    height: 24px;
+    width: 24px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.microphone {
+    display: flex;
+    align-items: center;
 }
 
 
