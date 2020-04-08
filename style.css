@@ -46,6 +46,11 @@ body {
     height: 44px;
 }
 
+.searchbar:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
 
 .input-bar {
     border: 0;
@@ -93,7 +98,8 @@ a {
 .header {
     display: flex;
     justify-content: flex-end;
-    padding: 30px;
+    align-items: center;
+    padding: 20px;
 }
 
 .aangeboden {
@@ -153,6 +159,26 @@ button:hover {
 .microphone {
     display: flex;
     align-items: center;
+}
+
+.user-icon {
+    border-radius: 550px;
+    height: 32px;
+    width: 32px;
+    margin-left: 15px;
+}
+
+
+nav.header ul{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.google-apps {
+    height: 25px;
+    padding-left: 10px;
 }
 
 
